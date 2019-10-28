@@ -17,7 +17,7 @@ def correct_guess_message
 end
 
 def wrong_guess_message(number)
-  print "Sorry! The computer guessed #{number}"
+  print "Sorry! The computer guessed #{number}."
 end
 
 def farewell_message

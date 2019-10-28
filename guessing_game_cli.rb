@@ -28,7 +28,7 @@ def compare
   user_num = user_guess
   comp_num = number_generated.to_s
 
-  if user_num_int == comp_num
+  if user_num == comp_num
 #    puts [user_num, comp_num]
     correct_guess_message
 
